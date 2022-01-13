@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MS regole */
+
+.ms-btn-radius{
+    
+    border-radius: 20px;
+}
+
+.ms-link-color{
+    color: #2e8bd6 !important;
+}
+
+.ms-buy-btn{
+    background-color: #cd3d0f !important;
+}
+.ms-login-btn{
+    background-color: #363636 !important;
+}
+/* Regole header */
+.top-header{
+    background-color: black;
+    height: 40px;
+}
+
+.title-company{
+    width: 100px;
+}
+
+
+
+.serch-lens{
+    width: 25px;
+}
+
+/* Regole jumbotron */
+.ms-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-position: center;
+    margin-top: 115px;
+}
+.ms-jumbo{
+    background-image: url("img/jumbo-bg.png");
+}
+
+/* Locandina pubblicita */
+
+.ms-banner{
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-position: center;
+    margin-top: 115px;
+}
+
+.ms-bg-game{
+    background-color: #1f1f1f;
+}
+
+
+
