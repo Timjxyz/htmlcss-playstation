@@ -39,6 +39,21 @@
 .ms-bg-ps-now{
     background-color: #161c3b;
 }
+
+
+.ms-opacity-50{
+    filter: opacity(50%);
+}
+.ms-opacity:hover{
+    filter: none;
+}
+
+
+
+.ms-border-here:hover{
+    display: block;
+    border-bottom: 3px solid ;
+}
 /* Regole header */
 .top-header{
     background-color: black;
@@ -48,12 +63,53 @@
 .title-company{
     width: 100px;
 }
-
-
-
-.serch-lens{
-    width: 25px;
+header ul li a{
+    font-weight: 600;
+    color: #000 !important;
+    
 }
+header ul li a:hover{
+    color:
+    
+#056fda!important;
+}
+
+.ms-dropdown{
+    width: 10px;
+}
+
+
+
+
+
+.ms-clik{
+    position: relative;
+}
+
+header li:hover .ms-nav-block{
+    display: inline-block ;
+    
+    
+}
+
+
+.ms-d-none{
+    display: none;
+}
+
+header li:hover .ms-nav-clik{
+    display: none;
+    
+    
+}
+
+.ms-animation-vetrina:hover{
+    margin-bottom: 20px;
+}
+
+.ms-animation-vetrina{
+    transition: all 0.5s
+} 
 
 /* Regole jumbotron */
 .ms-bg{
@@ -78,10 +134,58 @@
     background-color: #1f1f1f;
 }
 
+/* Regole Footer */
+.ms-bg-footer{
+    background-color:#00439c ;
+}
 
+ footer ul li a{
+    text-decoration: none ;
+    color: #fff !important;
+}
+li{
+    padding: 5px;
+}
+ul{
+    list-style: none;
+}
+.ms-logo-footer{
+    width: 100px;
+}
+.ms-img-globe-text{
+    width: 16px;
+}
 
+/* Sezione animazioni */
 
+.contenitore-animazioni{
+    height: 20px;
+}
 
+.ms-animated:hover .img-animated{
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    
+}
+
+@keyframes example {
+    0%   {
+        left:0px;
+        bottom:0px;
+    }
+    
+    50%  {
+        box-shadow: 5px 10px 10px 10px #0070d1;
+        
+        left:0px; bottom:50px;
+    }
+    
+    100% { 
+        left:0px;
+        bottom:0px;
+    }
+  }
 
 
 
