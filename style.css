@@ -21,6 +21,24 @@
 .ms-login-btn{
     background-color: #363636 !important;
 }
+
+.ms-esplora-btn{
+    background-color: #d9dadc !important;
+    color: #3167e6;
+    
+}
+
+.ms-bg-ps-plus{
+    background-color:#bebcbb;
+}
+
+.ms-logo-plus{
+    width: 420px;
+}
+
+.ms-bg-ps-now{
+    background-color: #161c3b;
+}
 /* Regole header */
 .top-header{
     background-color: black;
@@ -53,16 +71,21 @@
 
 .ms-banner{
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    background-position: center;
-    margin-top: 115px;
+   
 }
 
 .ms-bg-game{
     background-color: #1f1f1f;
 }
+
+
+
+
+
+
+
+
+
 
 
 
