@@ -18,6 +18,7 @@
 .ms-buy-btn{
     background-color: #cd3d0f !important;
 }
+
 .ms-login-btn{
     background-color: #363636 !important;
 }
@@ -44,15 +45,18 @@
 .ms-opacity-50{
     filter: opacity(50%);
 }
+
 .ms-opacity:hover{
     filter: none;
 }
 
-
-
 .ms-border-here:hover{
     display: block;
-    border-bottom: 3px solid ;
+    border-bottom: 3px solid;
+    color: #0d6efd;
+}
+.ms-border-here{
+    color: transparent;
 }
 /* Regole header */
 .top-header{
@@ -73,7 +77,16 @@ header ul li a:hover{
     
 #056fda!important;
 }
+.ms-decoration-none{
+    text-decoration: none ;
+}
 
+.ms-list::before {
+    content: "●";
+    margin-right: 0.75rem;
+    color: blue;
+  }
+  
 .ms-dropdown{
     width: 10px;
 }
