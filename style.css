@@ -85,21 +85,16 @@ header ul li a:hover{
     content: "●";
     margin-right: 0.75rem;
     color: blue;
-  }
+}
   
-.ms-dropdown{
-    width: 10px;
-}
-
+  
 .ms-lens{
-    width: 25px;
+      width: 25px;
 }
-
-
-
-
-.ms-clik{
-    position: relative;
+    
+   
+.ms-dropdown{
+        width: 10px;
 }
 
 header li:hover .ms-nav-block{
@@ -178,14 +173,14 @@ ul{
     height: 20px;
 }
 
-.ms-animated:hover .img-animated{
+.ms-animated-blu:hover .img-animated{
     position: relative;
-    animation-name: example;
+    animation-name: blu;
     animation-duration: 1s;
     
 }
 
-@keyframes example {
+@keyframes blu {
     0%   {
         left:0px;
         bottom:0px;
@@ -201,7 +196,39 @@ ul{
         left:0px;
         bottom:0px;
     }
-  }
+}
+
+.ms-animated-verde:hover .img-animated{
+    position: relative;
+    animation-name: verde;
+    animation-duration: 1s;
+    
+}
+
+@keyframes verde {
+    0%   {
+        left:0px;
+        bottom:0px;
+    }
+    
+    50%  {
+        box-shadow: 5px 10px 10px 10px #1a3739;
+        
+        left:0px; bottom:50px;
+    }
+    
+    100% { 
+        left:0px;
+        bottom:0px;
+    }
+}
+
+
+
+  
+
+  
+  
 
 
 
